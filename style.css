@@ -1,0 +1,58 @@
+body {
+	height: 100vh;
+	background-color: #dcdbdb;
+}
+
+h3 {
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#results {
+	font-weight: 300;
+}
+
+.game-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 22%;
+	height: 600px;
+	width: 800px;
+}
+
+img {
+	width: 200px;
+	cursor: pointer;
+}
+
+.new-game {
+	cursor: pointer;
+	display: block;
+	margin: 10px auto;
+	padding: 5px 10px;
+	font-family: 'Poppins';
+	font-weight: 500;
+	border-radius: 50px;
+	background-color: #dcdbdb;
+}
+
+.new-game:hover {
+	background-color: #f25757;
+	color: #eeeeee;
+	border: 1px solid #eeeeee;
+}
+
+@media only screen and (max-width: 425px) and (max-width: 768px) {
+	.game-container {
+		display: flex;
+		flex-wrap: wrap;
+		height: 300px;
+		width: 400px;
+	}
+
+	img {
+		width: 100px;
+	}
+}
